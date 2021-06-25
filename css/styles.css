@@ -1,0 +1,263 @@
+/*header and nav bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 12;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+nav{
+    display: inline-flex;
+    line-height: 180px;
+}
+
+.NavWords{
+    display: flex;
+    justify-content:space-around;
+}
+
+nav a{
+    color: #030BA6;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.header-socials{
+    float: left;
+}
+
+/*hero section*/
+/*section{
+    position: relative;
+    height: 518px;
+    width: auto;
+}*/
+/*section{
+    position: relative;
+    height: 518px;
+    width: auto;
+    bottom: 20px;
+    left: 0px;
+}*/
+/*.hero-image{
+    background-image: url("../images/heroimage.png");
+    background-position: center;
+    position: relative;
+    height: 518px;
+    width: auto;
+    bottom: 20px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.hero-image{
+    background-image: url("../images/heroimage.png");
+    background-position: center;
+    position: relative;
+    height: 518px;
+    width: auto;
+    bottom: 20px;
+    left: -437px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    position: absolute;
+    top: 27%;
+    left: 0;
+    border: 15px;
+    width: 951px;
+    height: 258px;
+    margin: 5px;
+    background: rgba(3,11,166,0.5);
+
+}
+.hero-text h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-text p{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*mission statement*/
+.missionimage{
+    background-image: url("../images/missionstatement.svg");
+    background-position: center;
+    position: relative;
+    height: 599px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.missionrectangle{
+    position: absolute;
+    background:rgba(168,14,147,0.3);
+    border: 15px;
+    height: 487px;
+    width: 1110px;
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.missionrectangle h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: white;
+}
+
+.missionrectangle p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.missionrectangle button{
+    color: #030BA6;
+    width: 220px;
+    height: 50px;
+}
+
+
+/*bootcamp section*/
+.bootcampimage{
+    background-image: url("../images/bootcamp.svg");
+    background-position: center;
+    position: relative;
+    height: 839px;
+    width: auto;
+    margin: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.bootcampimage .bootcamprectangle{
+    position: absolute;
+    background: rgba(4,157,217,0.5);
+    border: 15px;
+    height: 468px;
+    width: 100%;
+    margin: 185px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bootcamprectangle p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 0.1px;
+    display: flex;
+    text-align: center;
+}
+
+.bootcamprectangle .SignUpButton{
+    height: 50px;
+    width: 220px;
+}
+
+/*footer*/
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #AAAACC;
+}
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+.inner-footer .logo-container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.inner-footer .logo-container img{
+    width: 361px;
+    height: 321px;
+}
+.inner-footer .footer-third{
+    width: calc(21.6666666667 - 20px);
+    margin: 10px;
+    float: left;
+    height: 100%;
+}
+.inner-footer .footer-third:last-child{
+    margin-right: 0;
+}
+.inner-footer .footer-third h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inner-footer .footer-third p{
+    color: #1E2833;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.inner-footer .footer-third span{
+    color: #1E2833;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.inner-footer .footer-third a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1E2833;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.inner-footer .footer-third li{
+    display: block;
+    padding: 0 5 px;
+    font-size: 20px;
+}
