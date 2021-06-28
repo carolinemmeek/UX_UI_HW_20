@@ -1,127 +1,138 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Trouble Puppet</title>
-    <link rel="stylesheet" href="css/styles.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>UX/UI Homework 20</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="box-area">
-        <header>
-            <div class="Nav">
-                <div class="logo">
-                    <img src="images/headerlogo.svg">
-                </div>
-                <nav class="NavWords">
-                    <a href="#">Home</a>
-                    <a href="#">Box Office</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Fun Extras</a>
-                    <a href="#">Contact</a>
-                </nav>
-                <div class="header-socials">
-                    <a href="https://m.facebook.com/troublepuppettheatrecompany/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/troublepuppet?lang=en"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/troublepuppettheater/"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-        </header>
-
-    <section>
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>Trouble Puppet Theater Co.</h1>
-                <p>We make trouble so you don't have to.</p>
-            </div>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="images/new logo.svg"></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Box Office</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Fun Extras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </section>
+      </nav>
 
-<!--My UX Skills section coded using CSS flex-->
-<section>
-    <div class="missionimage">
-        <div class="missionrectangle">
-            <h1>
-                Our Mission
-            </h1>
-            <p>
-                Trouble Puppet Theater Company is dedicated to the creation of exceptional works 
-                <br>
-                of puppet theater, to the promotion of the art of puppetry, and to the support of its 
-                <br>
-                practitioners. We dig as deeply as we can into the possibilities that puppetry offers,
-                <br>
-                in its many forms and styles, and seek to balance risk and exploration with a drive 
-                <br>
-                for excellent craft and technique. Our work is inspired not only by our artistic passion 
-                <br>
-                but by our social, political, and human convictions: that there can be no end 
-                <br>
-                to the struggle for knowledge and compassion, against injustic and intolerance--and boring 
-                <br>
-                theater. 
-            </p>
-            <button type="DonateButton">Donate</button>
+    <!-- Hero/jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Box Office</h1>
+          <p class="lead">Get Information and Tickets on Upcoming Events</p>
+        </div>
+      </div>
+
+    <!-- ticket cards -->
+    
+    <div class="containter-fluid">
+        <div class="row">
+            <div class="cardContainer text-center col-lg-12 col-md-12 col-sm-12" class="card" style="width: 1133px;">
+                <img class="card-img-top" src="images/frankenstein card image.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Frankenstein</h5>
+                  <p2 class="card-text">Description of show</p>
+                  <a href="#" class="btn btn-primary">Tickets</a>
+                </div>
+              </div>
+            
+            <div class="cardContainer text-center col-lg-12 col-md-12 col-sm-12" class="card" style="width: 1133px;">
+                <img class="card-img-top" src="images/wars of heaven card image.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Wars of Heaven, Part 1</h5>
+                  <p2 class="card-text">Description of show</p>
+                  <a href="#" class="btn btn-primary">Tickets</a>
+                </div>
+              </div>
+
+            <div class="cardContainer text-center col-lg-12 col-md-12 col-sm-12" class="card" style="width: 1133px;">
+                <img class="card-img-top" src="images/cruel image.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Cruel Circus</h5>
+                  <p2 class="card-text">Description of show</p>
+                  <a href="#" class="btn btn-primary">Tickets</a>
+                </div>
+              </div>
         </div>
     </div>
-</section>
 
-<!--Another section coded using CSS flex-->
-<section>
-    <div class="bootcampimage">
-        <div class="bootcamprectangle">
-            <p>
-                Trouble Puppet Theater Company is pleased to be able to offer an
-                <br>
-                upcoming 3-day intensive in puppet Manipulation.
-                <button type="SignUpButton">Sign Up</button>
-            </p>
-        </div>
-    </div>
-</section>
+ <!-- footer -->
 
     <div class="footer">
-        <div class="inner-footer">
-            <div class="logo-container">
-                <img src="images/footerlogo.svg">
-                <span>
-                    © Trouble Puppet Theater Company. All rights reserved.
-                </span>
-            </div>
-            <div class="footer-third">
-                <p>
-                    Trouble Puppet is a sponsored project of
-                <br>
-                Salvage Vanguard Theater and is umbrellaed
-                <br>
-                under its 501(c)(3) nonprofit status.
-                <br>
-                <br>
-                This project is supported in part by the
-                <br>
-                Cultural Arts Division of the City of Austin
-                <br>
-                Economic Development Department.
-                </p>
-            </div>
-            
-            <div class="footer-third">
-                <h1>Quick Links</h1>
-                <a href="#">Home</a>
-                <a href="#">Box Office</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-            </div>
+      <div class="inner-footer">
+          <div class="logo-container">
+              <img src="images/footerlogo.svg">
+              <span>
+                  © Trouble Puppet Theater Company. All rights reserved.
+              </span>
+          </div>
+          <div class="footer-third">
+              <p>
+                  Trouble Puppet is a sponsored project of
+              <br>
+              Salvage Vanguard Theater and is umbrellaed
+              <br>
+              under its 501(c)(3) nonprofit status.
+              <br>
+              <br>
+              This project is supported in part by the
+              <br>
+              Cultural Arts Division of the City of Austin
+              <br>
+              Economic Development Department.
+              </p>
+          </div>
+          
+          <div class="footer-third">
+              <h1>Quick Links</h1>
+              <a href="#">Home</a>
+              <a href="#">Box Office</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+          </div>
 
-            <div class="footer-third">
-                <h1>Follow Us</h1>
-                <li><a href="https://m.facebook.com/troublepuppettheatrecompany/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/troublepuppet?lang=en"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/troublepuppettheater/"><i class="fa fa-instagram"></i></a></li>
-            </div>
+          <div class="footer-third">
+              <h1>Follow Us</h1>
+              <li><a href="https://m.facebook.com/troublepuppettheatrecompany/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/troublepuppet?lang=en"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/troublepuppettheater/"><i class="fa fa-instagram"></i></a></li>
+          </div>
 
-        </div>
-    </div>
-</body>
-<script src="js/index.js">
-</script>
+      </div>
+  </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
 </html>
